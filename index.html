@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Plata Dolphin AR Exhibit</title>
+  
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>La Plata Dolphin</h1>
+  <p class="description">Discover the critically endangered La Plata dolphin through this interactive AR experience.</p>
+
+  <model-viewer
+    src="assets/models/dolphin.glb"
+    alt="La Plata Dolphin 3D Model"
+    camera-controls
+    auto-rotate
+    ar
+    ar-modes="scene-viewer webxr quick-look"
+    style="width: 100%; height: 80vh; background-color: #E0F7FA; border-radius: 12px; margin-top: 20px;">
+  </model-viewer>
+
+</body>
+</html>
