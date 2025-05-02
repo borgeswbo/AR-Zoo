@@ -20,6 +20,31 @@ style.css          ← Stylesheet
 
 ---
 
+## 📊 Work Breakdown Structure (WBS)
+
+```mermaid
+graph TD
+  A[🎯 AR Zoo Exhibit Prototype<br>(7 days total)]
+  
+  A1[📁 Project Setup<br>1 day]
+  A2[🦈 Dolphin Model Integration<br>1 day]
+  A3[🖼️ Basic HTML/CSS Layout<br>1 day]
+  A4[📱 Mobile-Friendly Styling<br>1 day]
+  A5[💡 Info Text + Accessibility<br>1 day]
+  A6[🧪 Local Testing + Fixes<br>1 day]
+  A7[🚀 Deployment + README<br>1 day]
+
+  A --> A1
+  A --> A2
+  A --> A3
+  A --> A4
+  A --> A5
+  A --> A6
+  A --> A7
+```
+
+---
+
 ## 🏠 Running Locally (for testing)
 
 To view the project on your computer:
