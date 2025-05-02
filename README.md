@@ -1,12 +1,12 @@
 
-# 🐬 AR Zoo Exhibit – La Plata Dolphin
+# AR Zoo Exhibit – La Plata Dolphin
 
 A lightweight prototype of an Augmented Reality (AR) Zoo Exhibit, featuring the **La Plata Dolphin** (Pontoporia blainvillei).  
 Part of a project aimed at raising awareness for endangered species.
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 /assets
@@ -20,7 +20,7 @@ style.css          ← Stylesheet
 
 ---
 
-## 📊 Work Breakdown Structure (WBS)
+## Work Breakdown Structure (WBS)
 
 ```mermaid
 graph TD
@@ -45,7 +45,7 @@ graph TD
 
 ---
 
-## 🏠 Running Locally (for testing)
+## Running Locally (for testing)
 
 To view the project on your computer:
 
@@ -59,11 +59,11 @@ To view the project on your computer:
    http://localhost:8000
    ```
 
-✅ The AR experience should load successfully.
+The AR experience should load successfully.
 
 ---
 
-## 🌍 Hosting the Project (Netlify)
+## Hosting the Project (Netlify)
 
 You can make your project public and share it with anyone:
 
@@ -76,7 +76,7 @@ Netlify will automatically deploy the site and give you a public link!
 
 ---
 
-## ⚙️ Important Notes
+## Important Notes
 
 - All assets must use **relative paths** like:
   ```html
@@ -88,7 +88,7 @@ Netlify will automatically deploy the site and give you a public link!
 
 ---
 
-## 📚 Future Features (planned)
+## Future Features (planned)
 
 - Support for QR code scanning at exhibit locations.
 - Interactive educational panels.
@@ -97,7 +97,7 @@ Netlify will automatically deploy the site and give you a public link!
 
 ---
 
-# 🚀 Credits
+# Credits
 
 Built using:
 - [Model-Viewer](https://modelviewer.dev/)
@@ -105,7 +105,7 @@ Built using:
 
 ---
 
-# 🌟 License
+# License
 
 This project is for educational and awareness purposes.  
 Feel free to fork and expand it!
