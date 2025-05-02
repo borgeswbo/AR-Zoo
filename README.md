@@ -24,15 +24,15 @@ style.css          ← Stylesheet
 
 ```mermaid
 graph TD
-  A[🎯 AR Zoo Exhibit Prototype<br>(7 days total)]
+  A[AR Zoo Exhibit Prototype (7 days total)]
   
-  A1[📁 Project Setup<br>1 day]
-  A2[🦈 Dolphin Model Integration<br>1 day]
-  A3[🖼️ Basic HTML/CSS Layout<br>1 day]
-  A4[📱 Mobile-Friendly Styling<br>1 day]
-  A5[💡 Info Text + Accessibility<br>1 day]
-  A6[🧪 Local Testing + Fixes<br>1 day]
-  A7[🚀 Deployment + README<br>1 day]
+  A1[Project Setup - 1 day]
+  A2[Dolphin Model Integration - 1 day]
+  A3[Basic HTML/CSS Layout - 1 day]
+  A4[Mobile-Friendly Styling - 1 day]
+  A5[Info Text and Accessibility - 1 day]
+  A6[Local Testing and Fixes - 1 day]
+  A7[Deployment and README - 1 day]
 
   A --> A1
   A --> A2
