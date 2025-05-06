@@ -1,26 +1,62 @@
+# 🐬 La Plata Dolphin – AR Exhibit Prototype
 
-# AR Zoo Exhibit – La Plata Dolphin
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-blueviolet?logo=netlify&style=for-the-badge)](https://your-netlify-link.netlify.app) <!-- 🔁 Replace with your real Netlify link -->
 
-A lightweight prototype of an Augmented Reality (AR) Zoo Exhibit, featuring the **La Plata Dolphin** (Pontoporia blainvillei).  
-Part of a project aimed at raising awareness for endangered species.
+A small-scale student prototype exploring how Augmented Reality (AR) can be used in educational exhibits to raise awareness of critically endangered species like the **La Plata dolphin (Pontoporia blainvillei)**.
 
 ---
 
-## Project Structure
+## 🌐 Overview
+
+This AR experience is designed to be displayed in museums, schools, or awareness campaigns. Users can rotate, zoom, and explore a 3D model of the dolphin and access basic information about its endangered status. Future expansions may include multiple animal exhibits, interactivity, and QR-code-triggered scenes.
+
+---
+
+## 🚀 Features
+
+- ✅ Simple, mobile-friendly HTML/CSS layout  
+- ✅ Embedded `.glb` model with camera controls  
+- ✅ Auto-rotation and AR mode enabled  
+- ✅ Lightweight, no frameworks required  
+- ✅ Fully deployable on [Netlify](https://netlify.com)
+
+---
+
+## 📁 Folder Structure
 
 ```
 /assets
   /models
-    dolphin.glb   ← 3D model of the dolphin
-  /images
-    (optional: screenshots, UI images)
-index.html         ← Main page
-style.css          ← Stylesheet
+    dolphin.glb
+index.html
+style.css
 ```
 
 ---
 
-## Work Breakdown Structure (WBS)
+## 💡 Tech Used
+
+- [Model-Viewer by Google](https://modelviewer.dev/)
+- HTML5 / CSS3
+- Local or Netlify hosting
+
+---
+
+## 🔧 Local Testing
+
+To test locally with proper file access:
+
+```bash
+# Python 3.x
+python -m http.server
+
+# Then open:
+http://localhost:8000
+```
+
+---
+
+## 📊 Work Breakdown Structure (WBS)
 
 ```mermaid
 graph TD
@@ -45,69 +81,28 @@ graph TD
 
 ---
 
-## Running Locally (for testing)
+## 🧭 Future Features (Planned)
 
-To view the project on your computer:
-
-1. Open a terminal inside the project folder.
-2. Run the following command:
-   ```bash
-   python -m http.server 8000
-   ```
-3. Open your browser and navigate to:
-   ```
-   http://localhost:8000
-   ```
-
-The AR experience should load successfully.
+- [ ] Add golden lion tamarin (mico-leão-dourado) AR scene  
+- [ ] QR code-triggered exhibits for physical museum locations  
+- [ ] Audio narration and interactive info hotspots  
+- [ ] Language toggle (Portuguese/English)  
+- [ ] Animation playback for 3D models  
 
 ---
 
-## Hosting the Project (Netlify)
+## 🐬 About the La Plata Dolphin
 
-You can make your project public and share it with anyone:
-
-1. Go to [https://app.netlify.com/](https://app.netlify.com/).
-2. Create a free account.
-3. Click **"Add new site"** → **"Deploy manually"**.
-4. **Drag and drop your project folder** (the one with `index.html` inside).
-
-Netlify will automatically deploy the site and give you a public link!
+The La Plata dolphin (Pontoporia blainvillei) is a **critically endangered** freshwater dolphin native to South America. It faces threats from fishing nets, habitat loss, and pollution.
 
 ---
 
-## Important Notes
+## 🏁 License & Credits
 
-- All assets must use **relative paths** like:
-  ```html
-  src="./assets/models/dolphin.glb"
-  ```
-- No build tools are required (no npm, Parcel, Vite, etc).
-- Works on any modern browser supporting `<model-viewer>`.
-- Optional: for AR functionality on mobile, make sure your `.glb` model has AR-compatible metadata.
+- 3D model used for educational purposes only  
+- Built by [Your Name] as part of a school awareness project  
+- [Model-Viewer](https://github.com/google/model-viewer) under Apache License 2.0
 
 ---
 
-## Future Features (planned)
-
-- Support for QR code scanning at exhibit locations.
-- Interactive educational panels.
-- Multiple animals and environments.
-- Animation improvements (dolphin swimming movement).
-
----
-
-# Credits
-
-Built using:
-- [Model-Viewer](https://modelviewer.dev/)
-- [Python HTTP server](https://docs.python.org/3/library/http.server.html)
-
----
-
-# License
-
-This project is for educational and awareness purposes.  
-Feel free to fork and expand it!
-
----
+```
