@@ -1,4 +1,4 @@
-# Toninha – protótipo de exibição AR
+# Protótipo de exposição AR – Toninha
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-blueviolet?logo=netlify&style=for-the-badge)](https://ar-zoo-exhibit.netlify.app/) <!-- 🔁 Replace with your real Netlify link -->
 
