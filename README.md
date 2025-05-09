@@ -38,7 +38,8 @@ style.css
 
 - [Model-Viewer by Google](https://modelviewer.dev/)
 - HTML5 / CSS3
-- Hospedagem local ou Netlify
+- Python para hospedagem local
+- Netlify
 
 ---
 
@@ -50,7 +51,7 @@ Para testar localmente, baixe ou clone esse repositório, abra o terminal de com
 python -m http.server
 ```
 
-# Então abra no navegador:
+No navegador, abra:
 ```bash
 http://localhost:8000
 ```
