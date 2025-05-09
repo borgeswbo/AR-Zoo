@@ -45,7 +45,7 @@ style.css
 
 ## Testando localmente
 
-Para testar localmente, baixe ou clone esse repositório, abra o terminal de comando na pasta e execute:
+Para testar localmente, baixe este repositório, abra o terminal de comando na pasta e execute:
 
 ```bash
 python -m http.server
@@ -107,4 +107,3 @@ A toninha (Pontoporia blainvillei), também chamada de boto-cachimbo ou francisc
 
 ---
 
-```
