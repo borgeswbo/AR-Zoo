@@ -1,28 +1,28 @@
-# 🐬 La Plata Dolphin – AR Exhibit Prototype
+# Toninha – protótipo de exibição AR
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-blueviolet?logo=netlify&style=for-the-badge)](https://ar-zoo-exhibit.netlify.app/) <!-- 🔁 Replace with your real Netlify link -->
 
-A small-scale student prototype exploring how Augmented Reality (AR) can be used in educational exhibits to raise awareness of critically endangered species like the **La Plata dolphin (Pontoporia blainvillei)**.
+Um protótipo estudantil de pequena escala que explora como a Realidade Aumentada (AR) pode ser usada em exposições educacionais para aumentar a conscientização sobre espécies criticamente ameaçadas de extinção, como a **toninha (Pontoporia blainvillei)**.
 
 ---
 
-## 🌐 Overview
+## Visão Geral
 
-This AR experience is designed to be displayed in museums, schools, or awareness campaigns. Users can rotate, zoom, and explore a 3D model of the dolphin and access basic information about its endangered status. Future expansions may include multiple animal exhibits, interactivity, and QR-code-triggered scenes.
-
----
-
-## 🚀 Features
-
-- ✅ Simple, mobile-friendly HTML/CSS layout  
-- ✅ Embedded `.glb` model with camera controls  
-- ✅ Auto-rotation and AR mode enabled  
-- ✅ Lightweight, no frameworks required  
-- ✅ Fully deployable on [Netlify](https://netlify.com)
+Essa experiência de AR foi projetada para ser exibida em museus, escolas ou campanhas de conscientização. Os usuários podem girar, aplicar zoom e explorar um modelo 3D da toninha e acessar informações básicas sobre seu status de ameaça de extinção. Futuras expansões podem incluir exposições de várias espécies, interatividade e cenas acionadas por código QR.
 
 ---
 
-## 📁 Folder Structure
+## Funcionalidades
+
+- Layout HTML/CSS simples e compatível com dispositivos móveis  
+- Modelo `.glb` incorporado com controles de câmera  
+- Rotação automática e modo AR ativados  
+- Leve, sem necessidade de frameworks  
+- Implementável no [Netlify](https://netlify.com)
+
+---
+
+## Estrutura da Pasta
 
 ```
 /assets
@@ -34,41 +34,42 @@ style.css
 
 ---
 
-## 💡 Tech Used
+## Ferramentas utilizadas
 
 - [Model-Viewer by Google](https://modelviewer.dev/)
 - HTML5 / CSS3
-- Local or Netlify hosting
+- Hospedagem local ou Netlify
 
 ---
 
-## 🔧 Local Testing
+## Testando localmente
 
-To test locally with proper file access:
+Para testar localmente, baixe ou clone esse repositório, abra o terminal de comando na pasta e execute:
 
 ```bash
-# Python 3.x
 python -m http.server
+```
 
-# Then open:
+# Então abra no navegador:
+```bash
 http://localhost:8000
 ```
 
 ---
 
-## 📊 Work Breakdown Structure (WBS)
+## Estrutura Analítica do Projeto (WBS)
 
 ```mermaid
 graph TD
-  A[AR Zoo Exhibit Prototype – 7 days total]
+  A[Protótipo AR Zoo – 7 dias no total]
 
-  A1[Project Setup – 1 day]
-  A2[Dolphin Model Integration – 1 day]
-  A3[Basic HTML and CSS Layout – 1 day]
-  A4[Mobile-Friendly Styling – 1 day]
-  A5[Info Text and Accessibility – 1 day]
-  A6[Local Testing and Fixes – 1 day]
-  A7[Deployment and README – 1 day]
+  A1[Configuração do projeto – 1 dia]
+  A2[Integração do modelo 3D – 1 dia]
+  A3[Layout básico de HTML e CSS – 1 dia]
+  A4[Estilização compatível com dispositivos móveis – 1 dia]
+  A5[Texto informativo e acessibilidade – 1 dia]
+  A6[Testes e correções locais – 1 dia]
+  A7[Implementação e README – 1 dia]
 
   A --> A1
   A --> A2
@@ -81,27 +82,27 @@ graph TD
 
 ---
 
-## 🧭 Future Features (Planned)
+## Funcionalidades futuras (Planejadas)
 
-- [ ] Add golden lion tamarin (mico-leão-dourado) AR scene  
-- [ ] QR code-triggered exhibits for physical museum locations  
-- [ ] Audio narration and interactive info hotspots  
-- [ ] Language toggle (Portuguese/English)  
-- [ ] Animation playback for 3D models  
-
----
-
-## 🐬 About the La Plata Dolphin
-
-The La Plata dolphin (Pontoporia blainvillei) is a **critically endangered** freshwater dolphin native to South America. It faces threats from fishing nets, habitat loss, and pollution.
+- [ ] Adicionar cenas de AR de outras espécies difíceis de serem observadas em seu ambiente natural.  
+- [ ] Cenas acionadas por códio QR em locais selecionados.  
+- [ ] Narração em áudio e hotspots de informação interativos  
+- [ ] Alternância de idiomas (português/inglês)  
+- [ ] Reprodução de animações para os modelos 3D 
 
 ---
 
-## 🏁 License & Credits
+## Sobre a toninha
 
-- 3D model used for educational purposes only  
-- Built by [Your Name] as part of a school awareness project  
-- [Model-Viewer](https://github.com/google/model-viewer) under Apache License 2.0
+A toninha (Pontoporia blainvillei), também chamada de boto-cachimbo ou franciscana é uma espécie de golfinho fluvial nativo da América do Sul e em **perigo de extinção**. Entre as ameaças que enfrenta estão as redes de pesca, a pesca excessiva de suas presas e a poluição.
+
+---
+
+## Licença & Créditos
+
+- Modelo 3D usado apenas para fins educacionais  
+- Criado por William Borges como parte de um trabalho escolar  
+- [Model-Viewer](https://github.com/google/model-viewer) sob Apache License 2.0
 
 ---
 
