@@ -52,7 +52,7 @@ style.css
 
 ## Testando localmente
 
-1. baixe este repositório.
+1. Baixe este repositório e extraia o conteúdo.
 2. Abra o terminal de comando na pasta e execute:
 
 ```bash
