@@ -30,10 +30,11 @@ Essa experiência de AR foi projetada para ser exibida em museus, escolas ou cam
 
 ```
 /assets
-  /models
-    dolphin.glb
   /images
     dolphin-preview.gif
+  /models
+    dolphin.glb
+README.md
 index.html
 style.css
 ```
@@ -51,13 +52,14 @@ style.css
 
 ## Testando localmente
 
-Para testar localmente, baixe este repositório, abra o terminal de comando na pasta e execute:
+1. baixe este repositório.
+2. Abra o terminal de comando na pasta e execute:
 
 ```bash
 python -m http.server
 ```
 
-No navegador, abra:
+3. Abra o seguinte endereço no navegador:
 ```bash
 http://localhost:8000
 ```
