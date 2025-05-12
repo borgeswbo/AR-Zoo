@@ -59,7 +59,7 @@ style.css
 python -m http.server
 ```
 
-3. Abra o seguinte endereço no navegador:
+3. No navegador, abra:
 ```bash
 http://localhost:8000
 ```
