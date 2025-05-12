@@ -30,6 +30,8 @@ Essa experiência de AR foi projetada para ser exibida em museus, escolas ou cam
 /assets
   /models
     dolphin.glb
+  /images
+    dolphin-preview.gif
 index.html
 style.css
 ```
@@ -87,7 +89,7 @@ graph TD
 
 ## Funcionalidades futuras (Planejadas)
 
-- [ ] Adicionar cenas de AR de outras espécies difíceis de serem observadas em seu ambiente natural.  
+- [ ] Adicionar cenas de AR de outras espécies difíceis de serem observadas em seu habitat natural.  
 - [ ] Cenas acionadas por códio QR em locais selecionados.  
 - [ ] Narração em áudio e hotspots de informação interativos  
 - [ ] Alternância de idiomas (português/inglês)  
@@ -97,7 +99,7 @@ graph TD
 
 ## Sobre a toninha
 
-A toninha (Pontoporia blainvillei), também chamada de boto-cachimbo ou franciscana é uma espécie de golfinho fluvial nativo da América do Sul e em **perigo de extinção**. Entre as ameaças que enfrenta estão as redes de pesca, a pesca excessiva de suas presas e a poluição.
+A toninha (Pontoporia blainvillei), também chamada de boto-cachimbo ou franciscana é uma espécie de golfinho fluvial nativo da América do Sul e em **perigo de extinção**. Entre as ameaças que enfrenta estão a captura acidental em redes de pesca, a pesca excessiva de suas presas e a poluição.
 
 ---
 
