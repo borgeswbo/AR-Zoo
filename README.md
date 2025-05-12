@@ -2,6 +2,8 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-blueviolet?logo=netlify&style=for-the-badge)](https://ar-zoo-exhibit.netlify.app/) <!-- 🔁 Replace with your real Netlify link -->
 
+![La Plata Dolphin AR Preview](assets/images/dolphin-preview.gif)
+
 Um protótipo estudantil de pequena escala que explora como a Realidade Aumentada (AR) pode ser usada em exposições educacionais para aumentar a conscientização sobre espécies criticamente ameaçadas de extinção, como a **toninha (Pontoporia blainvillei)**.
 
 ---
