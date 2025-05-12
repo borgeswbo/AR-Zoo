@@ -103,7 +103,7 @@ graph TD
 
 ## Sobre a toninha
 
-A toninha (Pontoporia blainvillei), também chamada de boto-cachimbo ou franciscana é uma espécie de golfinho fluvial nativo da América do Sul e em **perigo de extinção**. Entre as ameaças que enfrenta estão a captura acidental em redes de pesca, a pesca excessiva de suas presas e a poluição.
+A toninha (Pontoporia blainvillei), também chamada de boto-cachimbo ou franciscana é uma espécie de golfinho fluvial que habita as águas costeiras do Brasil, Uruguai e Argentina e está em **perigo de extinção**. Entre as ameaças que enfrenta estão a captura acidental em redes de pesca, a pesca excessiva de suas presas e a poluição.
 
 ---
 
