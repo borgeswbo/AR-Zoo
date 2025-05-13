@@ -6,6 +6,7 @@ Clique no botão abaixo para ver o protótipo implantado no Netlify:
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-blueviolet?logo=netlify&style=for-the-badge)](https://ar-zoo-exhibit.netlify.app/)
 
+
 ![La Plata Dolphin AR Preview](assets/images/dolphin-preview.gif) 
 
 ---
