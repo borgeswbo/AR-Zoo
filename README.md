@@ -43,12 +43,11 @@ style.css
 
 ---
 
-## Ferramentas usadas
+## Tecnologia utilizada
 
 - [Model-Viewer by Google](https://modelviewer.dev/)
 - HTML5 / CSS3
-- Python para hospedagem local
-- Netlify
+- Hospedagem local ou Netlify
 
 ---
 
