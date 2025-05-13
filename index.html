@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Toninha - AR Exhibit</title>
+  <title id="page-title">La Plata Dolphin AR Exhibit</title>
 
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   <link rel="stylesheet" href="style.css" />
@@ -13,15 +13,15 @@
       font-family: Arial, sans-serif;
       text-align: center;
       background: #F9F9F9;
-      margin: 0;
       padding: 20px;
+      margin: 0;
     }
 
     h1 {
       color: #0277BD;
     }
 
-    p {
+    p.description {
       color: #555;
       max-width: 600px;
       margin: 10px auto 30px;
@@ -35,41 +35,27 @@
       margin-top: 20px;
     }
 
-    #language-toggle {
+    #lang-toggle {
       position: absolute;
       top: 15px;
       right: 15px;
-      padding: 6px 12px;
-      background: #0277BD;
-      color: #fff;
+      background-color: #0277BD;
+      color: white;
       border: none;
-      border-radius: 4px;
-      cursor: pointer;
+      border-radius: 20px;
+      padding: 6px 12px;
       font-size: 14px;
+      cursor: pointer;
       z-index: 10;
-    }
-
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 24px;
-      }
-      p {
-        font-size: 16px;
-        padding: 0 10px;
-      }
-      #language-toggle {
-        font-size: 12px;
-        padding: 5px 10px;
-      }
     }
   </style>
 </head>
 <body>
 
-  <button id="language-toggle">EN</button>
+  <button id="lang-toggle">English</button>
 
   <h1 id="title">Toninha</h1>
-  <p id="description">Aprenda sobre a toninha com esta experiência de AR interativa.</p>
+  <p class="description" id="desc">Aprenda sobre a toninha com esta experiência de AR interativa.</p>
 
   <model-viewer
     src="assets/models/dolphin.glb"
@@ -81,40 +67,46 @@
   </model-viewer>
 
   <script>
-    const toggleBtn = document.getElementById('language-toggle');
-    const title = document.getElementById('title');
-    const description = document.getElementById('description');
-
-    const translations = {
+    const LANG_DATA = {
       pt: {
         title: "Toninha",
-        description: "Aprenda sobre a toninha com esta experiência de AR interativa.",
-        toggle: "EN"
+        desc: "Aprenda sobre a toninha com esta experiência de AR interativa.",
+        toggle: "English",
+        alt: "Modelo 3D da toninha",
+        pageTitle: "Exposição AR: Toninha"  
       },
       en: {
         title: "La Plata Dolphin",
-        description: "Learn about the La Plata dolphin with this interactive AR experience.",
-        toggle: "PT"
+        desc: "Learn about the La Plata dolphin with this interactive AR experience.",
+        toggle: "Português",
+        alt: "La Plata Dolphin 3D Model",
+        pageTitle: "AR Exhibit: La Plata Dolphin" 
       }
     };
 
-    // Load language from localStorage or default to 'pt'
-    let currentLang = localStorage.getItem('lang') || 'pt';
-    setLanguage(currentLang);
-
-    toggleBtn.addEventListener('click', () => {
-      currentLang = currentLang === 'pt' ? 'en' : 'pt';
-      localStorage.setItem('lang', currentLang);
-      setLanguage(currentLang);
-    });
+    const title = document.getElementById("title");
+    const desc = document.getElementById("desc");
+    const toggleBtn = document.getElementById("lang-toggle");
+    const modelViewer = document.querySelector("model-viewer");
 
     function setLanguage(lang) {
-      title.textContent = translations[lang].title;
-      description.textContent = translations[lang].description;
-      toggleBtn.textContent = translations[lang].toggle;
+      title.textContent = LANG_DATA[lang].title;
+      desc.textContent = LANG_DATA[lang].desc;
+      toggleBtn.textContent = LANG_DATA[lang].toggle;
       document.documentElement.lang = lang;
+      localStorage.setItem("lang", lang);
+      modelViewer.setAttribute("alt", LANG_DATA[lang].alt);
+      document.getElementById("page-title").textContent = LANG_DATA[lang].pageTitle;
     }
-  </script>
 
+    toggleBtn.addEventListener("click", () => {
+      const newLang = document.documentElement.lang === "pt" ? "en" : "pt";
+      setLanguage(newLang);
+    });
+
+    // Load saved language or default to Portuguese
+    const savedLang = localStorage.getItem("lang") || "pt";
+    setLanguage(savedLang);
+  </script>
 </body>
 </html>
