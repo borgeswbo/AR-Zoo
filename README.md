@@ -26,7 +26,7 @@ Essa experiência de AR foi projetada para ser exibida em museus, escolas ou cam
 
 ---
 
-## Estrutura da Pasta
+## Estrutura da pasta
 
 ```
 /assets
@@ -91,7 +91,7 @@ graph TD
 
 ---
 
-## Funcionalidades futuras (Planejadas)
+## Funcionalidades futuras (planejadas)
 
 - [ ] Adicionar cenas de AR de outras espécies ameaçadas que são difíceis de serem observadas em seu habitat natural.  
 - [ ] Cenas acionadas por código QR em locais selecionados.  
