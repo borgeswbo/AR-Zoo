@@ -55,6 +55,7 @@ style.css
 ## Testando localmente
 
 1. Baixe este repositório e extraia o conteúdo.
+   
 2. Abra o prompt de comando na pasta AR-Zoo-main e execute:
 
 ```bash
@@ -66,7 +67,7 @@ python -m http.server
 http://localhost:8000
 ```
 
-4. Navegadores de desktop não mostrarão o botão AR, as funcionalidades de AR estão disponíveis apenas em navegadores móveis como o Chrome no Android ou o Safari no iOS.
+4. Navegadores de desktop não mostrarão o botão AR, as funcionalidades de AR estão disponíveis apenas em navegadores para dispositivos móveis como o Chrome no Android ou o Safari no iOS.
 
 ---
 
