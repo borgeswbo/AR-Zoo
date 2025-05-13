@@ -98,7 +98,7 @@ graph TD
 ## Funcionalidades futuras (planejadas)
 
 - [ ] Adicionar cenas de AR de outras espécies ameaçadas que são difíceis de serem observadas em seu habitat natural.  
-- [ ] Cenas acionadas por código QR em locais selecionados.  
+- [ ] Exposições acionadas por código QR em locais físicos selecionados.  
 - [ ] Narração em áudio e hotspots de informação interativos  
 - [ ] Alternância de idiomas (português/inglês)  
 - [ ] Reprodução de animações para os modelos 3D 
