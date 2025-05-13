@@ -1,17 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>La Plata Dolphin AR Exhibit</title>
-  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Toninha - AR Exhibit</title>
+
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #F9F9F9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #0277BD;
+    }
+
+    p {
+      color: #555;
+      max-width: 600px;
+      margin: 10px auto 30px;
+    }
+
+    model-viewer {
+      width: 100%;
+      height: 75vh;
+      background-color: #E0F7FA;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+
+    #language-toggle {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      padding: 6px 12px;
+      background: #0277BD;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      z-index: 10;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 16px;
+        padding: 0 10px;
+      }
+      #language-toggle {
+        font-size: 12px;
+        padding: 5px 10px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-  <h1>Toninha</h1>
-  <p class="description">Aprenda sobre a toninha com esta experiência de AR interativa.</p>
+  <button id="language-toggle">EN</button>
+
+  <h1 id="title">Toninha</h1>
+  <p id="description">Aprenda sobre a toninha com esta experiência de AR interativa.</p>
 
   <model-viewer
     src="assets/models/dolphin.glb"
@@ -19,9 +77,44 @@
     camera-controls
     auto-rotate
     ar
-    ar-modes="scene-viewer webxr quick-look"
-    style="width: 100%; height: 75vh; background-color: #E0F7FA; border-radius: 12px; margin-top: 20px;">
+    ar-modes="scene-viewer webxr quick-look">
   </model-viewer>
+
+  <script>
+    const toggleBtn = document.getElementById('language-toggle');
+    const title = document.getElementById('title');
+    const description = document.getElementById('description');
+
+    const translations = {
+      pt: {
+        title: "Toninha",
+        description: "Aprenda sobre a toninha com esta experiência de AR interativa.",
+        toggle: "EN"
+      },
+      en: {
+        title: "La Plata Dolphin",
+        description: "Learn about the La Plata dolphin with this interactive AR experience.",
+        toggle: "PT"
+      }
+    };
+
+    // Load language from localStorage or default to 'pt'
+    let currentLang = localStorage.getItem('lang') || 'pt';
+    setLanguage(currentLang);
+
+    toggleBtn.addEventListener('click', () => {
+      currentLang = currentLang === 'pt' ? 'en' : 'pt';
+      localStorage.setItem('lang', currentLang);
+      setLanguage(currentLang);
+    });
+
+    function setLanguage(lang) {
+      title.textContent = translations[lang].title;
+      description.textContent = translations[lang].description;
+      toggleBtn.textContent = translations[lang].toggle;
+      document.documentElement.lang = lang;
+    }
+  </script>
 
 </body>
 </html>
