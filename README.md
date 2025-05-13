@@ -2,7 +2,7 @@
 
 Protótipo estudantil em pequena escala que explora como a Realidade Aumentada (AR) pode ser usada em exposições educacionais para aumentar a conscientização sobre espécies criticamente ameaçadas de extinção, como a **toninha (Pontoporia blainvillei)**.
 
-Clique no botão abaixo para ver o protótipo implementado no Netlify:
+Clique no botão abaixo para ver o protótipo implementado no Netlify (as funcionalidades de AR estão disponíveis apenas para dispositivos móveis):
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-blueviolet?logo=netlify&style=for-the-badge)](https://ar-zoo-exhibit.netlify.app/)
 
