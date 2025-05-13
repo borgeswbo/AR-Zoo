@@ -43,7 +43,7 @@ style.css
 
 ---
 
-## Ferramentas utilizadas
+## Ferramentas usadas
 
 - [Model-Viewer by Google](https://modelviewer.dev/)
 - HTML5 / CSS3
