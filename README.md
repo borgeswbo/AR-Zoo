@@ -66,6 +66,8 @@ python -m http.server
 http://localhost:8000
 ```
 
+4. Navegadores de desktop não mostrarão o botão AR, as funcionalidades de AR estão disponíveis apenas em navegadores móveis como o Chrome no Android ou o Safari no iOS.
+
 ---
 
 ## Estrutura Analítica do Projeto (WBS)
