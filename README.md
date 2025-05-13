@@ -21,7 +21,7 @@ Essa experiência de AR foi projetada para ser exibida em museus, escolas ou cam
 ## Funcionalidades
 
 - Layout HTML/CSS simples e otimizado para dispositivos móveis  
-- Modelo `.glb` embutido com controles de câmera  
+- Modelo `.glb` incorporado com controles de câmera  
 - Rotação automática e modo AR ativados  
 - Leve, sem necessidade de frameworks  
 - Implementável no [Netlify](https://netlify.com)
