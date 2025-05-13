@@ -51,7 +51,7 @@ style.css
 
 ---
 
-## Testando localmente
+## Teste local
 
 1. Baixe este repositório e extraia o conteúdo.
    
