@@ -55,7 +55,7 @@ style.css
 ## Testando localmente
 
 1. Baixe este repositório e extraia o conteúdo.
-2. Abra o prompt de comando na pasta e execute:
+2. Abra o prompt de comando na pasta AR-Zoo-main e execute:
 
 ```bash
 python -m http.server
