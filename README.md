@@ -53,7 +53,7 @@ style.css
 
 ## Teste local
 
-1. Baixe este repositório e extraia o conteúdo.
+1. Baixe ou clone este repositório.
    
 2. Abra o prompt de comando na pasta AR-Zoo-main e execute:
 
@@ -97,11 +97,11 @@ graph TD
 
 ## Funcionalidades futuras (planejadas)
 
-- [ ] Adicionar cenas de AR de outras espécies ameaçadas que são difíceis de serem observadas em seu habitat natural.  
+- [ ] Adicionar cenas de AR de outras espécies ameaçadas que sejam difíceis de serem observadas em seu habitat natural.  
 - [ ] Exposições acionadas por código QR em locais físicos selecionados.  
-- [ ] Narração em áudio e hotspots de informação interativos  
-- [ ] Alternância de idiomas (português/inglês)  
-- [ ] Reprodução de animações para os modelos 3D 
+- [ ] Narração em áudio e hotspots de informação interativos.  
+- [ ] Alternância de idiomas (português/inglês).  
+- [ ] Reprodução de animações para os modelos 3D. 
 
 ---
 
