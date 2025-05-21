@@ -45,7 +45,7 @@ style.css
 
 ## Tecnologia utilizada
 
-- [Model-Viewer by Google](https://modelviewer.dev/)
+- [Model-Viewer do Google](https://modelviewer.dev/)
 - HTML5 / CSS3
 - Hospedagem local ou Netlify
 
