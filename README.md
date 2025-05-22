@@ -94,7 +94,7 @@ graph TD
 
 ## Future Features (Planned)
 
-- [ ] Add other endangered species that are difficult to observe in their natural habitat AR scenes
+- [ ] Add AR scenes of other endangered species that are difficult to observe in their natural habitat
 - [ ] QR code-triggered exhibits for physical museum locations  
 - [ ] Audio narration and interactive info hotspots  
 - [ ] Language toggle (Portuguese/English)  
@@ -104,7 +104,7 @@ graph TD
 
 ## About the La Plata Dolphin
 
-The La Plata dolphin (Pontoporia blainvillei) is a **critically endangered** freshwater dolphin native to South America. It faces threats from fishing nets, habitat loss, and pollution.
+The La Plata dolphin (Pontoporia blainvillei) is a **endangered** marine mammal found along the coasts of Brazil, Uruguay and Argentina. It faces threats from fishing nets (bycatch), habitat loss, and pollution.
 
 ---
 
