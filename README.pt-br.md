@@ -40,6 +40,7 @@ Essa experiência de AR foi projetada para ser exibida em museus, escolas ou cam
   /models
     dolphin.glb
 README.md
+README.pt-br.md
 index.html
 style.css
 ```
@@ -56,20 +57,19 @@ style.css
 
 ## Teste local
 
-1. Baixe ou clone este repositório.
-   
-2. Abra o prompt de comando na pasta AR-Zoo-main e execute:
+Para testar localmente com acesso adequado ao arquivo:
 
 ```bash
+# Python 3.x
 python -m http.server
 ```
 
-3. No navegador, abra:
+Depois abra:
 ```bash
 http://localhost:8000
 ```
 
-4. Navegadores de desktop não mostrarão o botão AR, as funcionalidades de AR estão disponíveis apenas em navegadores para dispositivos móveis como o Chrome no Android ou o Safari no iOS.
+* Navegadores de desktop não mostrarão o botão AR, as funcionalidades de AR estão disponíveis apenas em navegadores para dispositivos móveis como o Chrome no Android ou o Safari no iOS.
 
 ---
 
@@ -110,7 +110,7 @@ graph TD
 
 ## Sobre a toninha
 
-A toninha (Pontoporia blainvillei), também chamada de boto-cachimbo ou franciscana é uma espécie de golfinho que habita as águas costeiras do Brasil, Uruguai e Argentina e está em **perigo de extinção**. Entre as ameaças que enfrenta estão a captura acidental por redes de pesca (bycatch), a pesca excessiva de suas presas e a poluição.
+A toninha (Pontoporia blainvillei) é um mamífero marinho **em perigo de extinção** que habita as águas costeiras do Brasil, Uruguai e Argentina. Ela enfrenta ameaças como redes de pesca (captura acidental), perda de habitat e poluição.
 
 ---
 
