@@ -58,6 +58,7 @@ To test locally with proper file access:
 ```bash
 # Python 3.x
 python -m http.server
+```
 
 Then open:
 ```bash
@@ -93,7 +94,7 @@ graph TD
 
 ## Future Features (Planned)
 
-- [ ] Add AR scene for other endangered species that are difficult to observe in their natural habitat 
+- [ ] Add other endangered species that are difficult to observe in their natural habitat AR scenes
 - [ ] QR code-triggered exhibits for physical museum locations  
 - [ ] Audio narration and interactive info hotspots  
 - [ ] Language toggle (Portuguese/English)  
