@@ -106,7 +106,7 @@ graph TD
 
 ## About the La Plata Dolphin
 
-The La Plata dolphin (Pontoporia blainvillei) is a **endangered** marine mammal found along the coasts of Brazil, Uruguay and Argentina. It faces threats from fishing nets (bycatch), habitat loss, and pollution.
+The La Plata dolphin (Pontoporia blainvillei) is an **endangered** marine mammal found along the coasts of Brazil, Uruguay and Argentina. It faces threats from fishing nets (bycatch), habitat loss, and pollution.
 
 ---
 
