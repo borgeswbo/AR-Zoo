@@ -35,6 +35,8 @@ This AR experience is designed to be displayed in museums, schools, or awareness
 /assets
   /models
     dolphin.glb
+README.md
+README.pt-br.md
 index.html
 style.css
 ```
