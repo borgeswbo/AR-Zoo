@@ -65,6 +65,8 @@ Then open:
 http://localhost:8000
 ```
 
+*Desktop browsers won’t show the AR button, AR features are only available on mobile browsers like Chrome on Android or Safari on iOS.
+
 ---
 
 ## Work Breakdown Structure (WBS)
