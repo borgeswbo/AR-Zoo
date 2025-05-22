@@ -1,5 +1,5 @@
-[![lang: en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
-[![lang: pt-br](https://img.shields.io/badge/lang-pt--br-brightgreen.svg)](README.pt-br.md)
+[![lang: en](https://img.shields.io/badge/lang-English-red.svg)](README.md)
+[![lang: pt-br](https://img.shields.io/badge/lang-Português-brightgreen.svg)](README.pt-br.md)
 
 # AR Exhibit Prototype - La Plata Dolphin
 
