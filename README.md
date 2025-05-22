@@ -113,7 +113,7 @@ The La Plata dolphin (Pontoporia blainvillei) is a **endangered** marine mammal 
 ## License & Credits
 
 - 3D model used for educational purposes only  
-- Built by William Borges as part of a school awareness project  
+- Built by William Borges as part of a school project  
 - [Model-Viewer](https://github.com/google/model-viewer) under Apache License 2.0
 
 ---
