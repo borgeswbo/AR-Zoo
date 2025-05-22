@@ -1,3 +1,6 @@
+[![lang: en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
+[![lang: pt-br](https://img.shields.io/badge/lang-pt--br-brightgreen.svg)](README.pt-br.md)
+
 # Protótipo AR Zoo – Toninha
 
 Protótipo estudantil em pequena escala que explora como a Realidade Aumentada (AR) pode ser usada em exposições educacionais para aumentar a conscientização sobre espécies criticamente ameaçadas de extinção, como a **toninha (Pontoporia blainvillei)**.
