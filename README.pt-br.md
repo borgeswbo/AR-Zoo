@@ -1,7 +1,7 @@
-[![lang: en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
+[![lang: en](https://img.shields.io/badge/lang-en-blue.svg)](README.md)
 [![lang: pt-br](https://img.shields.io/badge/lang-pt--br-brightgreen.svg)](README.pt-br.md)
 
-# Protótipo AR Zoo – Toninha
+# Protótipo de Exposição AR – Toninha
 
 Protótipo estudantil em pequena escala que explora como a Realidade Aumentada (AR) pode ser usada em exposições educacionais para aumentar a conscientização sobre espécies criticamente ameaçadas de extinção, como a **toninha (Pontoporia blainvillei)**.
 
@@ -69,7 +69,7 @@ Depois abra:
 http://localhost:8000
 ```
 
-* Navegadores de desktop não mostrarão o botão AR, as funcionalidades de AR estão disponíveis apenas em navegadores para dispositivos móveis como o Chrome no Android ou o Safari no iOS.
+*Navegadores de desktop não mostrarão o botão AR, as funcionalidades de AR estão disponíveis apenas em navegadores para dispositivos móveis como o Chrome no Android ou o Safari no iOS.
 
 ---
 
