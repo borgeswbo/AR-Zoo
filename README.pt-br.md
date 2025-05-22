@@ -1,4 +1,4 @@
-[![lang: en](https://img.shields.io/badge/lang-en-blue.svg)](README.md)
+[![lang: en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![lang: pt-br](https://img.shields.io/badge/lang-pt--br-brightgreen.svg)](README.pt-br.md)
 
 # Protótipo de Exposição AR – Toninha
