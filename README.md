@@ -1,4 +1,6 @@
-# La Plata Dolphin – AR Exhibit Prototype
+[![lang: pt-br](https://img.shields.io/badge/lang-pt--br-brightgreen.svg)](README.pt-br.md)
+
+# AR Exhibit Prototype - La Plata Dolphin
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-blueviolet?logo=netlify&style=for-the-badge)](https://your-netlify-link.netlify.app) <!-- 🔁 Replace with your real Netlify link -->
 
@@ -54,7 +56,8 @@ To test locally with proper file access:
 # Python 3.x
 python -m http.server
 
-# Then open:
+Then open:
+```bash
 http://localhost:8000
 ```
 
