@@ -3,9 +3,9 @@
 
 # AR Exhibit Prototype - La Plata Dolphin
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-blueviolet?logo=netlify&style=for-the-badge)](https://your-netlify-link.netlify.app) <!-- 🔁 Replace with your real Netlify link -->
-
 A small-scale student prototype exploring how Augmented Reality (AR) can be used in educational exhibits to raise awareness of critically endangered species like the **La Plata dolphin (Pontoporia blainvillei)**.
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-blueviolet?logo=netlify&style=for-the-badge)](https://your-netlify-link.netlify.app)
 
 <br/>
 
