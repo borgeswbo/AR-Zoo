@@ -118,7 +118,7 @@ A toninha (Pontoporia blainvillei) é um mamífero marinho **em perigo de extin�
 
 - Modelo 3D usado apenas para fins educacionais  
 - Criado por William Borges como parte de um trabalho escolar  
-- [Model-Viewer](https://github.com/google/model-viewer) sob Licença Apache 2.0
+- [Model-Viewer](https://github.com/google/model-viewer) sob a Licença Apache 2.0
 
 ---
 
