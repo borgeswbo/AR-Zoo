@@ -96,7 +96,7 @@ graph TD
 
 ## Future Features (Planned)
 
-- [ ] Add AR scenes of other endangered species that are difficult to observe in their natural habitat
+- [ ] Add AR scenes of other endangered species that are difficult to observe in their natural habitats
 - [ ] QR code-triggered exhibits for physical museum locations  
 - [ ] Audio narration and interactive info hotspots  
 - [ ] Language toggle (Portuguese/English)  
