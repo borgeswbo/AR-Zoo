@@ -34,15 +34,15 @@ Essa experiência de AR foi projetada para ser exibida em museus, escolas ou cam
 ## Estrutura da pasta
 
 ```
-/assets
-  /images
-    dolphin-preview.gif
-  /models
-    dolphin.glb
-README.md
-README.pt-br.md
-index.html
-style.css
+AR-Zoo-Exhibit/
+├── images/
+    └── dolphin-preview.gif
+├── models/
+│   └── dolphin.glb
+├── README.md
+├── README.pt-br.md
+├── index.html
+└── style.css
 ```
 
 ---
