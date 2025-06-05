@@ -40,7 +40,15 @@ README.pt-br.md
 index.html
 style.css
 ```
-
+```
+AR-Zoo-Exhibit/
+├── models/
+│   ├── dolphin.glb
+├── README.md
+├── README.pt-br.md
+├── index.html
+└── style.css
+```
 ---
 
 ## Tech Used
