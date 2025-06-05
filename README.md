@@ -32,23 +32,17 @@ This AR experience is designed to be displayed in museums, schools, or awareness
 ## Folder Structure
 
 ```
-/assets
-  /models
-    dolphin.glb
-README.md
-README.pt-br.md
-index.html
-style.css
-```
-```
 AR-Zoo-Exhibit/
+├── images/
+    └── dolphin-preview.gif
 ├── models/
-│   ├── dolphin.glb
+│   └── dolphin.glb
 ├── README.md
 ├── README.pt-br.md
 ├── index.html
 └── style.css
 ```
+
 ---
 
 ## Tech Used
